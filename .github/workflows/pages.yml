@@ -16,6 +16,8 @@ jobs:
       - uses: oven-sh/setup-bun@v2
         with:
           bun-version: 1.4.4
+      - name: Install development tools
+        run: bun install --frozen-lockfile
       - name: Check browser JavaScript
         run: bun run check
       - uses: actions/configure-pages@v5
