@@ -1,0 +1,8 @@
+{
+  "name": "codex-accounts-proxy",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "bun build public/app.js --target=browser --outdir /tmp/codex-accounts-proxy-check"
+  }
+}

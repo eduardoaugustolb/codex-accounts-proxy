@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; connect-src http://127.0.0.1:*; img-src 'self' http://127.0.0.1:* https://*.googleusercontent.com https://cdn.auth0.com https://*.oaistatic.com https://cdn.openai.com; style-src 'self' 'unsafe-inline'; form-action 'none'; base-uri 'none'; object-src 'none'">
+<title>Codex Accounts</title><link rel="icon" href="/logo.png"><link rel="stylesheet" href="/connect.css"><script src="/app.js" defer></script>
+</head>
+<body><main class="connect-card"><img src="/logo.png" alt="" width="56" height="56"><h1>Your accounts. On your machine.</h1><p>Connect this dashboard to your local Codex Accounts backend. Your credentials stay on your device.</p><form id="connect-form"><label for="endpoint">Private local panel address</label><input id="endpoint" type="url" required placeholder="http://127.0.0.1:…/…/" autocomplete="off" spellcheck="false"><button>Connect local dashboard</button></form><p id="connection-status" role="status">Run <code>codex-accounts panel</code> to open a paired dashboard, or paste its local address above.</p><p class="muted">Allow access to apps on this device if your browser asks. If the backend restarts, open the panel command again to reconnect.</p><a href="https://codex-accounts.eduardoaugusto.work/installation/">Install Codex Accounts ↗</a></main></body>
+</html>
